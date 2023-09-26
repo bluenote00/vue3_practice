@@ -1,6 +1,8 @@
 import './assets/main.css'
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import { CompositionAPI,OptionAPI } from 'vue'
 
-createApp(App).mount('#app')
+import CompositionAPI from './CompositionAPI.vue'
+import OptionAPI from './OptionAPI.vue'
+
+
